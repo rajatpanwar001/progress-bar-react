@@ -1,31 +1,30 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { createStore, applyMiddleware } from "redux";
-import { Provider } from "react-redux";
-import thunk from "redux-thunk";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
 
-import "./index.css";
-import reducers from "reducers";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+import './index.css';
+import reducers from 'reducers';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
 //Sentry error tracking
-import * as Sentry from "@sentry/react";
-import { Integrations } from "@sentry/tracing";
-import { DndProvider } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
-import TagManager from 'react-gtm-module'
- 
-const tagManagerArgs = {
-    gtmId: 'GTM-N34MGJK'
-}
- 
-TagManager.initialize(tagManagerArgs)
+import * as Sentry from '@sentry/react';
+import { Integrations } from '@sentry/tracing';
+import { DndProvider } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
+import TagManager from 'react-gtm-module';
 
-if (process.env.NODE_ENV === "production") {
+const tagManagerArgs = {
+  gtmId: 'GTM-N34MGJK',
+};
+
+TagManager.initialize(tagManagerArgs);
+
+if (process.env.NODE_ENV === 'production') {
   Sentry.init({
-    dsn:
-      "https://6d740d803d2a4a07a51cfbaaa93e3d3a@o456774.ingest.sentry.io/5571933",
+    dsn: 'https://6d740d803d2a4a07a51cfbaaa93e3d3a@o456774.ingest.sentry.io/5571933',
     autoSessionTracking: true,
     integrations: [new Integrations.BrowserTracing()],
 
@@ -44,7 +43,7 @@ ReactDOM.render(
       <App />
     </DndProvider>
   </Provider>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
