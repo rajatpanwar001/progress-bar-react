@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,yBACE,gBAAiB,CAEjB,wBAAgB,CAAhB,eACF","file":"27.bff2e296.chunk.css","sourcesContent":[".custom-tab .tab-content {\n  min-height: 100px;\n  border: 1px solid #dcdcdc;\n  border-top: none;\n}\n"]}

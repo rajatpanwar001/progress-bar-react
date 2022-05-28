@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/ReactBasics/Home/index.js"],"names":["ReactBasicsHome"],"mappings":"uIAAA,2BAMeA,UAJS,WACpB,OAAO","file":"static/js/50.161daceb.chunk.js","sourcesContent":["import React from \"react\";\n\nconst ReactBasicsHome = () => {\n    return <div>React Basics Home</div>;\n};\n\nexport default ReactBasicsHome;\n"],"sourceRoot":""}

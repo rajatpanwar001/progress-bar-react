@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-component-depot"]=this["webpackJsonpreact-component-depot"]||[]).push([[50],{247:function(e,t,n){"use strict";n.r(t);var c=n(0),o=n.n(c);t.default=function(){return o.a.createElement("div",null,"React Basics Home")}}}]);
+//# sourceMappingURL=50.161daceb.chunk.js.map

@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-component-depot"]=this["webpackJsonpreact-component-depot"]||[]).push([[47],{277:function(e,t,n){"use strict";n.r(t);var a=n(0),c=n.n(a),o=n(24),r=c.a.lazy((function(){return Promise.all([n.e(0),n.e(23)]).then(n.bind(null,268))}));t.default=function(){Object(o.h)().path;return c.a.createElement(o.d,null,c.a.createElement(o.b,{component:r}))}}}]);
+//# sourceMappingURL=47.9bbb586f.chunk.js.map
